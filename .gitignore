@@ -1,41 +1,35 @@
-# IntelliJ / IDEA
+# IntelliJ IDEA
 .idea/
 *.iml
 out/
 
-
 # VS Code
 .vscode/
 
-# Mac / Windows system files
+# OS system files
 .DS_Store
 Thumbs.db
 
-# Ignore src wrapper (we don’t want it on GitHub)
-src/
-
-#BELOW ALL PRE WRITTEN CODE
-
-### IntelliJ IDEA ###
-!**/src/main/**/out/
-!**/src/test/**/out/
-
-### Eclipse ###
-.apt_generated
-.classpath
-.factorypath
-.project
-.settings
-.springBeans
-.sts4-cache
+# Java build
+*.class
+*.jar
+*.war
+*.ear
+*.log
+target/
 bin/
-!**/src/main/**/bin/
-!**/src/test/**/bin/
 
-### NetBeans ###
+# Ignore build artifacts
+build/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# NetBeans
 /nbproject/private/
 /nbbuild/
 /dist/
 /nbdist/
 /.nb-gradle/
-
