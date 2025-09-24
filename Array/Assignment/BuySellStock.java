@@ -1,4 +1,4 @@
-package Array.Assignment;
+package Assignment;
 
 public class BuySellStock {
 

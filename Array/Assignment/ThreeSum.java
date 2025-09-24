@@ -1,4 +1,4 @@
-package Array.Assignment;
+package Assignment;
 
 import java.util.*;
 
